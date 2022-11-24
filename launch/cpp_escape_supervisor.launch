@@ -1,0 +1,5 @@
+<launch>
+    <node name="simulator" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+    <node name="cpp_supervisor" pkg="robotica" type="cpp_turtle_supervisor"/>
+    <node name="cpp_escape" pkg="robotica" type="cpp_turtle_escape"/>
+</launch>

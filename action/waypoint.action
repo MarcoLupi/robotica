@@ -1,0 +1,10 @@
+# goal definition
+geometry_msgs/Pose2D pose 
+---
+# result definition 
+bool success
+---
+# feedback definition 
+int8 control_phase
+float64 distance_error
+float64 angle_error
